@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+.App1{
+  text-align: center;
+}
+.App-logo{
+  height:40vmin;
+  pointer-events: none;
+}
+@media(prefers-reduced-motion:no-preference){
+  .App-logo{
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+a{
+  color: black !important;
+}
+.navbar{
+   position: sticky;
+   top: 0;
+   z-index: 10;
+}
+.brand-logo,h2,h3{
+    font-family: 'Grand Hotel', cursive;
+}
+.brand-logo{
+  margin-left: 20px;
+}
+.mycard{
+    margin-top: 30px;
+  }
+.search-image{
+  height:50px;
+  width:50px; 
+  border-radius:50px;
+}
+.search-user{
+  position:absolute;
+  margin-left:10px;
+  font-weight:bold;
+}
+.search-email{
+  margin-left:10px
+}
+.adjust{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:190px
+}
+.okk{
+    margin-left: 500px;
+    margin-top: 150px;
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+.auth-card{
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+}  
+.card1{
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 100px auto;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+  }
+  .input-field input[type=password]:focus {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+}
+.scroll-to-top{
+  position: fixed;
+  bottom: 12px;
+  left: 90%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: blue;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+.tag{
+  color: rgb(192,192,192);
+  cursor: pointer;
+}
+.has-text-left{
+   display: inline;
+   width: 100%;
+}
+.img-style{
+  width:160px;
+  height:160px;
+  border-radius:80px;
+}
+.scroll-to-top .icon{
+   position: absolute;
+   margin-top: 12px;
+   margin-left: 13px;
+   animation: scrollTop 0.5s alternate ease infinite;
+   cursor: pointer;
+}
+@keyframes scrollTop{
+  from{
+    transform: translateY(2px);
+  }
+  to {
+   transform: translateY(-1px);
+  }
+}
+.textarea{
+   width: 450px;
+   height: 150px;
+   border-radius: 8px;
+   background-color: white;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width: 30%;
+}
+.home-card{
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+.collection-item{
+  width: 100%;
+}
+.mar{
+   margin-top: -15px;
+}
+#toast-container{
+  top:70px !important;
+  right: 60px !important;
+  left: auto !important;
+}
+.material-icons:hover{
+  cursor: pointer;
+}
+.ok{
+   margin-right: 15px;
+}
+.okk1{
+   margin: 5px;
+}
+.setting{
+  border-radius:50px;
+  width:50px;
+  height:50px;
+  margin-left:5px;
+  margin-top:5px
+}
+.link-setting{
+  position:absolute;
+   top:16px; 
+   margin-left: 65px; 
+   font-weight:bold
+}
+.img11{
+    position:absolute;
+    top:18px;
+    margin-left:460px;
+}
+.adu{
+  margin-left:120px;
+}
+.edit-icon{
+  cursor: pointer;
+  font-size: 30px;
+}
+.edit-icon1{
+  cursor: pointer;
+}
+.default {color: black;}
+@media screen and (max-width: 800px) {
+  .brand-logo{
+    font-family: 'Grand Hotel', cursive;
+    margin-left: 0px;
+}
+  #toast-container{
+    top:30px !important;
+    right: 20px !important;
+    left: auto !important;
+  }
+ .img-style{
+  width:120px;
+  height:120px;
+  border-radius:200px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.scroll-to-top{
+  left: 85%;
+  bottom: 20px;
+}
+.size{
+   font-size: 20px;
+}
+.margin-set{
+   margin-left: 20px;
+   margin-top: -20px;
+}
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 320px;
+  margin: 10px auto;
+}
+.setting{
+  border-radius:50px;
+  width:50px;
+  height:50px;
+  margin-left:5px;
+  margin-top:5px
+}
+.link-setting{
+  position:absolute;
+   top:16px; 
+   margin-left: 65px; 
+   font-size: 20px;
+}
+.img11{
+  position:absolute;
+  top:18px;
+  margin-left:310px;
+}
+.card1{
+  padding: 20px;
+  text-align: center;
+  max-width: 320px;
+  margin: 100px auto;
+}
+.okk{
+  margin-left: 30px;
+  margin-top: 60px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+.ll{
+   width: 105%;
+   margin-left: -20px;
+}
+.okk1{
+  margin-left: 0px;
+  margin-top: 7px;
+}
+.home-card{
+  max-width: 340px;
+  height: max-content;
+  margin: 26px auto;
+}
+.home{
+  max-width: 360px;
+}
+.adjust{
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:100px
+}
+.adu{
+  margin-left:35px;
+}
+.dis{
+   margin-left: 15px;
+}
+.dis1{
+  margin-left: 25px;
+}
+.dis2{
+  margin-left: 30px;
+}
+.mur{
+  margin-left: -3px;
+}
+.textarea{
+  width: 270px;
+  height: 150px;
+  border-radius: 8px;
+}
+.search-image{
+  margin-left: -30px;
+}
+.search-email{
+  margin-top: -10px;
+}
+.edit-icon{
+  font-size: 20px;
+}
+.style-width{
+  width: 370px;
+}
+}

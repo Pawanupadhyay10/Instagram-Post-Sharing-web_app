@@ -1,5 +1,3 @@
-# Instagram Post-Sharing-Web-App (Both frontend and backend) created with MERN Stack. #
-
 #  Instagram Post-Sharing-Web-App
 <p align="center">
 <img src="https://media.distractify.com/brand-img/qR1RRaxtc/2160x1130/instagram2-1625774285074.jpg" width="270" height="270">

@@ -32,6 +32,12 @@ I got more experience in **MERN stack and JWT** by building this application.  G
 The current point system that I have is dynamic but I would love to introduce videos and story feature options into the application to make the whole experience even more rewarding.
 
 ## Project demo Vedio/Gallery📷
+![instaPage5](https://user-images.githubusercontent.com/52281814/145791539-ace379a3-3457-4aeb-ba6f-1f7af1236354.png)
+![InstaPage6](https://user-images.githubusercontent.com/52281814/145791558-f8ec7db7-ff63-4b68-80a5-7cc3ea5fed2f.png)
+![insatPage3](https://user-images.githubusercontent.com/52281814/145791565-3004afc0-d93d-4877-9ef1-7a2f95b1df02.png)
+![InstaPage4](https://user-images.githubusercontent.com/52281814/145791578-cefcc30a-00ea-43e3-b8f6-f84a9abe8699.png)
+
+
    https://www.linkedin.com/feed/update/urn:li:activity:6839890014701182976/
 
 https://user-images.githubusercontent.com/52281814/134370975-a23aa37c-0928-458c-8c13-d0bc6d0d1dfc.mp4

@@ -308,59 +308,6 @@ router.post('/new-email',(req,res)=>{
   
 })
 
-// router.post('/change-username',(req,res)=>{
-//   const newUsername = req.body.username
-//   User.findOne({username:req.body.username})
-//   .then(savedUser=>{
-//       if(savedUser){
-//         return res.status(422).json({error:"This username is already taken. Please try a different one"})
-//       }
-//       User.findOne({email:req.body.email})
-//   .then(user=>{
-//       if(!user){
-//           return res.status(422).json({error:"Invalid Credentials"})
-//       }
-//       if(newUsername.length<6){
-//         return res.status(422).json({error:`Your username must be having 6 or more characters. You have entered only ${newUsername.length} characters.`})
-//       }
-//       if(newUsername.length>30){
-//         return res.status(422).json({error:`Your username must not be having more than 30 characters. You have entered ${newUsername.length} characters.`})
-//       }
-//          user.username = newUsername
-//          user.save().then((user)=>{
-//              res.json({message:"Username changed successfully."})
-//          })
-//   }).catch(err=>{
-//       console.log(err)
-//   })
-//   }) 
-// })
-
-// router.post('/change-name',(req,res)=>{
-//   const newName = req.body.name
-//   User.findOne({name:req.body.name})
-//   .then(savedUser=>{
-//       if(savedUser){
-//         return res.status(422).json({error:"This name is already taken. Please try a different one"})
-//       }
-//       User.findOne({email:req.body.email})
-//   .then(user=>{
-//       if(!user){
-//           return res.status(422).json({error:"Invalid Credentials"})
-//       }
-//       if(newName.length>30){
-//         return res.status(422).json({error:`Your name must not be having more than 30 characters. You have entered ${newName.length} characters.`})
-//       }
-//          user.name = newName
-//          user.save().then((user)=>{
-//              res.json({message:"Name changed successfully."})
-//          })
-//   }).catch(err=>{
-//       console.log(err)
-//   })
-//   }) 
-// })
-
 router.post('/delete-account',(req,res)=>{
   User.findOne({email:req.body.email}).then(user=>{
     if(!user){
